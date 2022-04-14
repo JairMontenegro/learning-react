@@ -168,3 +168,9 @@ import reactDOM from 'react-dom'; // we are import the package
     <p> what do you want to {verb} ?</p>
 
         //it's mean that our result of this code will be (what do you want to eat) 
+
+    //Another example 
+        // we can call a metod as well. Example 
+
+        let  name = "Jair "
+        <p>your name is {name.toUppercase()} </p>
