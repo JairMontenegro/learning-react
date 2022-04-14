@@ -172,5 +172,5 @@ import reactDOM from 'react-dom'; // we are import the package
     //Another example 
         // we can call a metod as well. Example 
 
-        let  name = "Jair "
-        <p>your name is {name.toUppercase()} </p>
+        let  name1 = "jair";
+        <p>your //name is {name1.toUppercase()} </p>
