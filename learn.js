@@ -53,6 +53,7 @@
     // inside this class we have to define a render metod called and iside a keys we'll define our componet or element jsx.
 
 
+
     // FEATURES 
     // 
     // 1 ) it must extend a React.Component.
@@ -98,7 +99,7 @@
     // easely, the elements begin with a lowercase for example (div img h1 among others )
     // and components with uppercase, example (names we define )
 
-    //to  define a class="" in jsx as a html, we can define the sentence (className="") with camelCase 
+    //to  define a class="" in jsx as a html, we can define the sentence (className="") with camelCase IMPORTANT! 
     // the attribute for = "" also changes  => (htmlFor) with camelCase as well. 
     
 
@@ -106,8 +107,7 @@
 
     //Our attribute style in jsx acept a javascript object with css propertys and them must be write in camelCase as well. 
 
-    //example 
-    // inCSS 
+    //example inCSS 
     // backgroud-image:; 
     //in jsx will be: 
     //backgroundImage
@@ -158,7 +158,7 @@ import reactDOM from 'react-dom'; // we are import the package
 
 // JAVASCRIPT IN JSX 
 
-    // when we see this {} in jsx mean that in our element or component thers is a 
+    // when we see this {} in jsx mean that in our element or component there's a 
     //javascript code. And this allows us create a REACTAPPS DINAMICS with code very concise example: 
 
     let verb = "eat"
@@ -174,3 +174,10 @@ import reactDOM from 'react-dom'; // we are import the package
 
         let  name1 = "jair";
         <p>your //name is {name1.toUppercase()} </p>
+
+
+// now i'm going to do a projects of react in other files in this same folder. 
+// create react app react % npx create-react-app ourname
+// if you already have a folder app, only can replace ourname for a dot (.) so will create a new repository into folder app. 
+
+// 1ST) testimonials page 
