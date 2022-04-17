@@ -20,3 +20,15 @@ function Testimonials (){
   )
 
 }
+
+export default Testimonials
+
+
+//here is where we have to export the component (at the end of the file) with <<export default nameourcomponent >>
+//in react there are two types of export Named Exports (Zero or more exports per module) Default Exports (One per module) 
+
+//Default Exports = it allows you define that this is only element or component to be exported this file. 
+
+//Named Exports =  which will can to exports several elements from a file 
+
+

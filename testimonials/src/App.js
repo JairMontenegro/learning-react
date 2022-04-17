@@ -9,4 +9,5 @@ function App() {
 }
 // remember that when naming our component, its initial letter must be in uppercase, so that react can read it.
 // remember import our component with  "import .componentname. from  ' ./ ' adress in our folder "
-export default App;
+// rembember export our component with "" where we have our file, in this case will be in testimonial.js (at the end of the file)
+export default App; 
