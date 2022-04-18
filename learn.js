@@ -176,8 +176,21 @@ import reactDOM from 'react-dom'; // we are import the package
         <p>your //name is {name1.toUppercase()} </p>
 
 
-// now i'm going to do a projects of react in other files in this same folder. 
-// create react app react % npx create-react-app ourname
-// if you already have a folder app, only can replace ourname for a dot (.) so will create a new repository into folder app. 
+        // now i'm going to do a projects of react in other files in this same folder. 
+        // create react app react % npx create-react-app ourname
+        // if you already have a folder app, only can replace ourname for a dot (.) so will create a new repository into folder app. 
 
-// 1ST) testimonials page 
+            // 1ST) testimonials page 
+
+
+// STYLES .CSS 
+
+    // it's normaly we found a one file for each component style in react.
+    // it's important review each file of css this file because there are many information
+    // about how we can get styles to our component
+
+
+//HOW TO RECIEVE PROPS IN A COMPONENT 
+
+    //PROPS IT'S THE REASON FOR REACT IS SO POWERFUL
+    //REMEMBER, THE PURPOSE OF REACT IS HELP US CREATE COMPONETS REUSABLES
