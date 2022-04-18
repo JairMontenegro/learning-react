@@ -190,7 +190,14 @@ import reactDOM from 'react-dom'; // we are import the package
     // about how we can get styles to our component
 
 
-//HOW TO RECIEVE PROPS IN A COMPONENT 
+//HOW TO RECIEVE PROPS IN A COMPONENT  
 
     //PROPS IT'S THE REASON FOR REACT IS SO POWERFUL
-    //REMEMBER, THE PURPOSE OF REACT IS HELP US CREATE COMPONETS REUSABLES
+    //REMEMBER, THE PURPOSE OF REACT IS HELP US CREATE COMPONETS REUSABLES TO SEE GO IN TO THE 
+    //TESTIMONIALS.JS THERE CONTINUE THE EXPLANATION  
+
+// HOW TO GET PROPS TO A COMPONENT 
+
+    // remember to get props is one way (father to child)
+    // in this case the component that render this component is found in App,js testimonials. see you there.
+    // to make the image dynamic what we have to use is the literal templates (inverted quote `` + ${} es6
